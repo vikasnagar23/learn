@@ -1,0 +1,264 @@
+2022-05-11T05:05:55+00:00 CRITICAL Uncaught TypeError: array_chunk(): Argument #1 ($array) must be of type array, null given in C:\xampp\htdocs\filter\wp-content\plugins\wp_filter\wp_filter.php:74
+Stack trace:
+#0 C:\xampp\htdocs\filter\wp-content\plugins\wp_filter\wp_filter.php(74): array_chunk(NULL, 3)
+#1 C:\xampp\htdocs\filter\wp-includes\class-wp-hook.php(307): form_data_function('')
+#2 C:\xampp\htdocs\filter\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#3 C:\xampp\htdocs\filter\wp-includes\plugin.php(474): WP_Hook->do_action(Array)
+#4 C:\xampp\htdocs\filter\wp-admin\admin-ajax.php(187): do_action('wp_ajax_form_da...')
+#5 {main}
+  thrown in C:\xampp\htdocs\filter\wp-content\plugins\wp_filter\wp_filter.php on line 74
+
+2022-05-11T05:06:19+00:00 CRITICAL Uncaught TypeError: array_chunk(): Argument #1 ($array) must be of type array, null given in C:\xampp\htdocs\filter\wp-content\plugins\wp_filter\wp_filter.php:74
+Stack trace:
+#0 C:\xampp\htdocs\filter\wp-content\plugins\wp_filter\wp_filter.php(74): array_chunk(NULL, 3)
+#1 C:\xampp\htdocs\filter\wp-includes\class-wp-hook.php(307): form_data_function('')
+#2 C:\xampp\htdocs\filter\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#3 C:\xampp\htdocs\filter\wp-includes\plugin.php(474): WP_Hook->do_action(Array)
+#4 C:\xampp\htdocs\filter\wp-admin\admin-ajax.php(187): do_action('wp_ajax_form_da...')
+#5 {main}
+  thrown in C:\xampp\htdocs\filter\wp-content\plugins\wp_filter\wp_filter.php on line 74
+
+2022-05-11T05:07:05+00:00 CRITICAL Uncaught TypeError: array_chunk(): Argument #1 ($array) must be of type array, null given in C:\xampp\htdocs\filter\wp-content\plugins\wp_filter\wp_filter.php:74
+Stack trace:
+#0 C:\xampp\htdocs\filter\wp-content\plugins\wp_filter\wp_filter.php(74): array_chunk(NULL, 3)
+#1 C:\xampp\htdocs\filter\wp-includes\class-wp-hook.php(307): form_data_function('')
+#2 C:\xampp\htdocs\filter\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#3 C:\xampp\htdocs\filter\wp-includes\plugin.php(474): WP_Hook->do_action(Array)
+#4 C:\xampp\htdocs\filter\wp-admin\admin-ajax.php(187): do_action('wp_ajax_form_da...')
+#5 {main}
+  thrown in C:\xampp\htdocs\filter\wp-content\plugins\wp_filter\wp_filter.php on line 74
+
+2022-05-11T05:26:33+00:00 CRITICAL Uncaught Error: Undefined constant "POST" in C:\xampp\htdocs\filter\wp-content\plugins\wp_filter\wp_filter.php:86
+Stack trace:
+#0 C:\xampp\htdocs\filter\wp-includes\class-wp-hook.php(307): form_delete_function('')
+#1 C:\xampp\htdocs\filter\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#2 C:\xampp\htdocs\filter\wp-includes\plugin.php(474): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\filter\wp-admin\admin-ajax.php(187): do_action('wp_ajax_form_de...')
+#4 {main}
+  thrown in C:\xampp\htdocs\filter\wp-content\plugins\wp_filter\wp_filter.php on line 86
+
+2022-05-11T05:26:58+00:00 CRITICAL Uncaught Error: Undefined constant "POST" in C:\xampp\htdocs\filter\wp-content\plugins\wp_filter\wp_filter.php:87
+Stack trace:
+#0 C:\xampp\htdocs\filter\wp-includes\class-wp-hook.php(307): form_delete_function('')
+#1 C:\xampp\htdocs\filter\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#2 C:\xampp\htdocs\filter\wp-includes\plugin.php(474): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\filter\wp-admin\admin-ajax.php(187): do_action('wp_ajax_form_de...')
+#4 {main}
+  thrown in C:\xampp\htdocs\filter\wp-content\plugins\wp_filter\wp_filter.php on line 87
+
+2022-05-11T05:31:12+00:00 CRITICAL syntax error, unexpected token "}" in C:\xampp\htdocs\filter\wp-content\plugins\wp_filter\wp_filter.php on line 73
+
+2022-05-11T05:42:42+00:00 CRITICAL syntax error, unexpected variable "$listId", expecting "]" in C:\xampp\htdocs\filter\wp-content\plugins\wp_filter\wp_filter.php on line 74
+
+2022-05-11T05:42:43+00:00 CRITICAL syntax error, unexpected variable "$listId", expecting "]" in C:\xampp\htdocs\filter\wp-content\plugins\wp_filter\wp_filter.php on line 74
+
+2022-05-11T05:42:43+00:00 CRITICAL syntax error, unexpected variable "$listId", expecting "]" in C:\xampp\htdocs\filter\wp-content\plugins\wp_filter\wp_filter.php on line 74
+
+2022-05-11T05:43:07+00:00 CRITICAL syntax error, unexpected variable "$listId", expecting "]" in C:\xampp\htdocs\filter\wp-content\plugins\wp_filter\wp_filter.php on line 74
+
+2022-05-11T05:43:28+00:00 CRITICAL syntax error, unexpected variable "$listId", expecting "]" in C:\xampp\htdocs\filter\wp-content\plugins\wp_filter\wp_filter.php on line 74
+
+2022-05-11T05:48:09+00:00 CRITICAL Uncaught Error: Call to undefined function Number() in C:\xampp\htdocs\filter\wp-content\plugins\wp_filter\wp_filter.php:71
+Stack trace:
+#0 C:\xampp\htdocs\filter\wp-includes\class-wp-hook.php(307): form_data_function('')
+#1 C:\xampp\htdocs\filter\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#2 C:\xampp\htdocs\filter\wp-includes\plugin.php(474): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\filter\wp-admin\admin-ajax.php(187): do_action('wp_ajax_form_da...')
+#4 {main}
+  thrown in C:\xampp\htdocs\filter\wp-content\plugins\wp_filter\wp_filter.php on line 71
+
+2022-05-11T05:49:52+00:00 CRITICAL Cannot use [] for reading in C:\xampp\htdocs\filter\wp-content\plugins\wp_filter\wp_filter.php on line 71
+
+2022-05-11T09:21:12+00:00 CRITICAL Uncaught Error: Call to a member function insert() on null in C:\xampp\htdocs\filter\wp-content\plugins\wp_filter\wp_filter.php:72
+Stack trace:
+#0 C:\xampp\htdocs\filter\wp-includes\class-wp-hook.php(307): form_data_function('')
+#1 C:\xampp\htdocs\filter\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#2 C:\xampp\htdocs\filter\wp-includes\plugin.php(474): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\filter\wp-admin\admin-ajax.php(187): do_action('wp_ajax_form_da...')
+#4 {main}
+  thrown in C:\xampp\htdocs\filter\wp-content\plugins\wp_filter\wp_filter.php on line 72
+
+2022-05-11T09:21:30+00:00 CRITICAL Uncaught Error: Call to a member function insert() on null in C:\xampp\htdocs\filter\wp-content\plugins\wp_filter\wp_filter.php:72
+Stack trace:
+#0 C:\xampp\htdocs\filter\wp-includes\class-wp-hook.php(307): form_data_function('')
+#1 C:\xampp\htdocs\filter\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#2 C:\xampp\htdocs\filter\wp-includes\plugin.php(474): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\filter\wp-admin\admin-ajax.php(187): do_action('wp_ajax_form_da...')
+#4 {main}
+  thrown in C:\xampp\htdocs\filter\wp-content\plugins\wp_filter\wp_filter.php on line 72
+
+2022-05-11T09:24:40+00:00 CRITICAL Uncaught Error: Call to a member function delete() on null in C:\xampp\htdocs\filter\wp-content\plugins\wp_filter\wp_filter.php:98
+Stack trace:
+#0 C:\xampp\htdocs\filter\wp-includes\class-wp-hook.php(307): form_delete_function('')
+#1 C:\xampp\htdocs\filter\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#2 C:\xampp\htdocs\filter\wp-includes\plugin.php(474): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\filter\wp-admin\admin-ajax.php(187): do_action('wp_ajax_form_de...')
+#4 {main}
+  thrown in C:\xampp\htdocs\filter\wp-content\plugins\wp_filter\wp_filter.php on line 98
+
+2022-05-11T09:24:46+00:00 CRITICAL Uncaught Error: Call to a member function delete() on null in C:\xampp\htdocs\filter\wp-content\plugins\wp_filter\wp_filter.php:98
+Stack trace:
+#0 C:\xampp\htdocs\filter\wp-includes\class-wp-hook.php(307): form_delete_function('')
+#1 C:\xampp\htdocs\filter\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#2 C:\xampp\htdocs\filter\wp-includes\plugin.php(474): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\filter\wp-admin\admin-ajax.php(187): do_action('wp_ajax_form_de...')
+#4 {main}
+  thrown in C:\xampp\htdocs\filter\wp-content\plugins\wp_filter\wp_filter.php on line 98
+
+2022-05-11T10:15:45+00:00 CRITICAL Uncaught Error: Array callback must have exactly two elements in C:\xampp\htdocs\filter\wp-content\plugins\wp_filter\wp_filter.php:71
+Stack trace:
+#0 C:\xampp\htdocs\filter\wp-includes\class-wp-hook.php(307): form_data_function('')
+#1 C:\xampp\htdocs\filter\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#2 C:\xampp\htdocs\filter\wp-includes\plugin.php(474): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\filter\wp-admin\admin-ajax.php(187): do_action('wp_ajax_form_da...')
+#4 {main}
+  thrown in C:\xampp\htdocs\filter\wp-content\plugins\wp_filter\wp_filter.php on line 71
+
+2022-05-11T10:16:07+00:00 CRITICAL Uncaught Error: Array callback must have exactly two elements in C:\xampp\htdocs\filter\wp-content\plugins\wp_filter\wp_filter.php:71
+Stack trace:
+#0 C:\xampp\htdocs\filter\wp-includes\class-wp-hook.php(307): form_data_function('')
+#1 C:\xampp\htdocs\filter\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#2 C:\xampp\htdocs\filter\wp-includes\plugin.php(474): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\filter\wp-admin\admin-ajax.php(187): do_action('wp_ajax_form_da...')
+#4 {main}
+  thrown in C:\xampp\htdocs\filter\wp-content\plugins\wp_filter\wp_filter.php on line 71
+
+2022-05-11T10:16:47+00:00 CRITICAL Uncaught Error: Array callback must have exactly two elements in C:\xampp\htdocs\filter\wp-content\plugins\wp_filter\wp_filter.php:71
+Stack trace:
+#0 C:\xampp\htdocs\filter\wp-includes\class-wp-hook.php(307): form_data_function('')
+#1 C:\xampp\htdocs\filter\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#2 C:\xampp\htdocs\filter\wp-includes\plugin.php(474): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\filter\wp-admin\admin-ajax.php(187): do_action('wp_ajax_form_da...')
+#4 {main}
+  thrown in C:\xampp\htdocs\filter\wp-content\plugins\wp_filter\wp_filter.php on line 71
+
+2022-05-11T10:16:51+00:00 CRITICAL Uncaught Error: Array callback must have exactly two elements in C:\xampp\htdocs\filter\wp-content\plugins\wp_filter\wp_filter.php:71
+Stack trace:
+#0 C:\xampp\htdocs\filter\wp-includes\class-wp-hook.php(307): form_data_function('')
+#1 C:\xampp\htdocs\filter\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#2 C:\xampp\htdocs\filter\wp-includes\plugin.php(474): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\filter\wp-admin\admin-ajax.php(187): do_action('wp_ajax_form_da...')
+#4 {main}
+  thrown in C:\xampp\htdocs\filter\wp-content\plugins\wp_filter\wp_filter.php on line 71
+
+2022-05-11T10:16:54+00:00 CRITICAL Uncaught Error: Array callback must have exactly two elements in C:\xampp\htdocs\filter\wp-content\plugins\wp_filter\wp_filter.php:71
+Stack trace:
+#0 C:\xampp\htdocs\filter\wp-includes\class-wp-hook.php(307): form_data_function('')
+#1 C:\xampp\htdocs\filter\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#2 C:\xampp\htdocs\filter\wp-includes\plugin.php(474): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\filter\wp-admin\admin-ajax.php(187): do_action('wp_ajax_form_da...')
+#4 {main}
+  thrown in C:\xampp\htdocs\filter\wp-content\plugins\wp_filter\wp_filter.php on line 71
+
+2022-05-11T11:11:23+00:00 CRITICAL Uncaught Error: Call to a member function get_charset_collate() on null in C:\xampp\htdocs\filter\wp-content\plugins\wp_filter\wp_filter.php:42
+Stack trace:
+#0 C:\xampp\htdocs\filter\wp-includes\class-wp-hook.php(307): create_table_filter(false)
+#1 C:\xampp\htdocs\filter\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#2 C:\xampp\htdocs\filter\wp-includes\plugin.php(474): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\filter\wp-admin\includes\plugin.php(689): do_action('activate_wp_fil...', false)
+#4 C:\xampp\htdocs\filter\wp-admin\plugins.php(58): activate_plugin('wp_filter/wp_fi...', 'http://localhos...', false)
+#5 {main}
+  thrown in C:\xampp\htdocs\filter\wp-content\plugins\wp_filter\wp_filter.php on line 42
+
+2022-05-11T11:11:24+00:00 CRITICAL Uncaught Error: Call to a member function get_charset_collate() on null in C:\xampp\htdocs\filter\wp-content\plugins\wp_filter\wp_filter.php:42
+Stack trace:
+#0 C:\xampp\htdocs\filter\wp-includes\class-wp-hook.php(307): create_table_filter('')
+#1 C:\xampp\htdocs\filter\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#2 C:\xampp\htdocs\filter\wp-includes\plugin.php(474): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\filter\wp-admin\plugins.php(194): do_action('activate_wp_fil...')
+#4 {main}
+  thrown in C:\xampp\htdocs\filter\wp-content\plugins\wp_filter\wp_filter.php on line 42
+
+2022-05-11T11:11:24+00:00 CRITICAL Uncaught Error: Call to a member function get_charset_collate() on null in C:\xampp\htdocs\filter\wp-content\plugins\wp_filter\wp_filter.php:42
+Stack trace:
+#0 C:\xampp\htdocs\filter\wp-includes\class-wp-hook.php(307): create_table_filter('')
+#1 C:\xampp\htdocs\filter\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#2 C:\xampp\htdocs\filter\wp-includes\plugin.php(474): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\filter\wp-admin\plugins.php(194): do_action('activate_wp_fil...')
+#4 {main}
+  thrown in C:\xampp\htdocs\filter\wp-content\plugins\wp_filter\wp_filter.php on line 42
+
+2022-05-11T11:11:31+00:00 CRITICAL Uncaught Error: Call to a member function get_charset_collate() on null in C:\xampp\htdocs\filter\wp-content\plugins\wp_filter\wp_filter.php:42
+Stack trace:
+#0 C:\xampp\htdocs\filter\wp-includes\class-wp-hook.php(307): create_table_filter(false)
+#1 C:\xampp\htdocs\filter\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#2 C:\xampp\htdocs\filter\wp-includes\plugin.php(474): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\filter\wp-admin\includes\plugin.php(689): do_action('activate_wp_fil...', false)
+#4 C:\xampp\htdocs\filter\wp-admin\plugins.php(58): activate_plugin('wp_filter/wp_fi...', 'http://localhos...', false)
+#5 {main}
+  thrown in C:\xampp\htdocs\filter\wp-content\plugins\wp_filter\wp_filter.php on line 42
+
+2022-05-11T11:11:32+00:00 CRITICAL Uncaught Error: Call to a member function get_charset_collate() on null in C:\xampp\htdocs\filter\wp-content\plugins\wp_filter\wp_filter.php:42
+Stack trace:
+#0 C:\xampp\htdocs\filter\wp-includes\class-wp-hook.php(307): create_table_filter('')
+#1 C:\xampp\htdocs\filter\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#2 C:\xampp\htdocs\filter\wp-includes\plugin.php(474): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\filter\wp-admin\plugins.php(194): do_action('activate_wp_fil...')
+#4 {main}
+  thrown in C:\xampp\htdocs\filter\wp-content\plugins\wp_filter\wp_filter.php on line 42
+
+2022-05-11T11:11:32+00:00 CRITICAL Uncaught Error: Call to a member function get_charset_collate() on null in C:\xampp\htdocs\filter\wp-content\plugins\wp_filter\wp_filter.php:42
+Stack trace:
+#0 C:\xampp\htdocs\filter\wp-includes\class-wp-hook.php(307): create_table_filter('')
+#1 C:\xampp\htdocs\filter\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#2 C:\xampp\htdocs\filter\wp-includes\plugin.php(474): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\filter\wp-admin\plugins.php(194): do_action('activate_wp_fil...')
+#4 {main}
+  thrown in C:\xampp\htdocs\filter\wp-content\plugins\wp_filter\wp_filter.php on line 42
+
+2022-05-11T11:12:01+00:00 CRITICAL Uncaught Error: Call to a member function get_var() on null in C:\xampp\htdocs\filter\wp-content\plugins\wp_filter\wp_filter.php:55
+Stack trace:
+#0 C:\xampp\htdocs\filter\wp-includes\class-wp-hook.php(307): create_table_filter(false)
+#1 C:\xampp\htdocs\filter\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#2 C:\xampp\htdocs\filter\wp-includes\plugin.php(474): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\filter\wp-admin\includes\plugin.php(689): do_action('activate_wp_fil...', false)
+#4 C:\xampp\htdocs\filter\wp-admin\plugins.php(58): activate_plugin('wp_filter/wp_fi...', 'http://localhos...', false)
+#5 {main}
+  thrown in C:\xampp\htdocs\filter\wp-content\plugins\wp_filter\wp_filter.php on line 55
+
+2022-05-11T11:12:02+00:00 CRITICAL Uncaught Error: Call to a member function get_var() on null in C:\xampp\htdocs\filter\wp-content\plugins\wp_filter\wp_filter.php:55
+Stack trace:
+#0 C:\xampp\htdocs\filter\wp-includes\class-wp-hook.php(307): create_table_filter('')
+#1 C:\xampp\htdocs\filter\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#2 C:\xampp\htdocs\filter\wp-includes\plugin.php(474): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\filter\wp-admin\plugins.php(194): do_action('activate_wp_fil...')
+#4 {main}
+  thrown in C:\xampp\htdocs\filter\wp-content\plugins\wp_filter\wp_filter.php on line 55
+
+2022-05-11T11:12:02+00:00 CRITICAL Uncaught Error: Call to a member function get_var() on null in C:\xampp\htdocs\filter\wp-content\plugins\wp_filter\wp_filter.php:55
+Stack trace:
+#0 C:\xampp\htdocs\filter\wp-includes\class-wp-hook.php(307): create_table_filter('')
+#1 C:\xampp\htdocs\filter\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#2 C:\xampp\htdocs\filter\wp-includes\plugin.php(474): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\filter\wp-admin\plugins.php(194): do_action('activate_wp_fil...')
+#4 {main}
+  thrown in C:\xampp\htdocs\filter\wp-content\plugins\wp_filter\wp_filter.php on line 55
+
+2022-05-11T11:12:30+00:00 CRITICAL Uncaught Error: Call to a member function get_var() on null in C:\xampp\htdocs\filter\wp-content\plugins\wp_filter\wp_filter.php:56
+Stack trace:
+#0 C:\xampp\htdocs\filter\wp-includes\class-wp-hook.php(307): create_table_filter(false)
+#1 C:\xampp\htdocs\filter\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#2 C:\xampp\htdocs\filter\wp-includes\plugin.php(474): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\filter\wp-admin\includes\plugin.php(689): do_action('activate_wp_fil...', false)
+#4 C:\xampp\htdocs\filter\wp-admin\plugins.php(58): activate_plugin('wp_filter/wp_fi...', 'http://localhos...', false)
+#5 {main}
+  thrown in C:\xampp\htdocs\filter\wp-content\plugins\wp_filter\wp_filter.php on line 56
+
+2022-05-11T11:12:31+00:00 CRITICAL Uncaught Error: Call to a member function get_var() on null in C:\xampp\htdocs\filter\wp-content\plugins\wp_filter\wp_filter.php:56
+Stack trace:
+#0 C:\xampp\htdocs\filter\wp-includes\class-wp-hook.php(307): create_table_filter('')
+#1 C:\xampp\htdocs\filter\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#2 C:\xampp\htdocs\filter\wp-includes\plugin.php(474): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\filter\wp-admin\plugins.php(194): do_action('activate_wp_fil...')
+#4 {main}
+  thrown in C:\xampp\htdocs\filter\wp-content\plugins\wp_filter\wp_filter.php on line 56
+
+2022-05-11T11:12:31+00:00 CRITICAL Uncaught Error: Call to a member function get_var() on null in C:\xampp\htdocs\filter\wp-content\plugins\wp_filter\wp_filter.php:56
+Stack trace:
+#0 C:\xampp\htdocs\filter\wp-includes\class-wp-hook.php(307): create_table_filter('')
+#1 C:\xampp\htdocs\filter\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#2 C:\xampp\htdocs\filter\wp-includes\plugin.php(474): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\filter\wp-admin\plugins.php(194): do_action('activate_wp_fil...')
+#4 {main}
+  thrown in C:\xampp\htdocs\filter\wp-content\plugins\wp_filter\wp_filter.php on line 56
+

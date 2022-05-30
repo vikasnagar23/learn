@@ -1,0 +1,41 @@
+2022-05-09T05:21:23+00:00 CRITICAL syntax error, unexpected token "." in C:\xampp\htdocs\filter\wp-content\plugins\wp_filter\wp_filter.php on line 131
+
+2022-05-09T05:22:30+00:00 CRITICAL syntax error, unexpected identifier "stp_api_select_field_1", expecting "," or ";" in C:\xampp\htdocs\filter\wp-content\plugins\wp_filter\wp_filter.php on line 131
+
+2022-05-09T05:22:50+00:00 CRITICAL syntax error, unexpected identifier "stp_api_select_field_1", expecting "," or ";" in C:\xampp\htdocs\filter\wp-content\plugins\wp_filter\wp_filter.php on line 131
+
+2022-05-09T05:30:06+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "wp_filter_settings" not found or invalid function name in C:\xampp\htdocs\filter\wp-includes\class-wp-hook.php:307
+Stack trace:
+#0 C:\xampp\htdocs\filter\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#1 C:\xampp\htdocs\filter\wp-includes\plugin.php(474): WP_Hook->do_action(Array)
+#2 C:\xampp\htdocs\filter\wp-admin\admin.php(259): do_action('wp-filter_page_...')
+#3 {main}
+  thrown in C:\xampp\htdocs\filter\wp-includes\class-wp-hook.php on line 307
+
+2022-05-09T05:30:33+00:00 CRITICAL syntax error, unexpected single-quoted string "Settings API Page", expecting ")" in C:\xampp\htdocs\filter\wp-content\plugins\wp_filter\wp_filter.php on line 84
+
+2022-05-09T05:30:44+00:00 CRITICAL syntax error, unexpected single-quoted string "Settings API Page", expecting ")" in C:\xampp\htdocs\filter\wp-content\plugins\wp_filter\wp_filter.php on line 84
+
+2022-05-09T08:44:42+00:00 CRITICAL syntax error, unexpected token "=>" in C:\xampp\htdocs\filter\wp-content\plugins\wp_filter\wp_filter.php on line 77
+
+2022-05-09T13:49:25+00:00 CRITICAL Unclosed '{' on line 312 in C:\xampp\htdocs\filter\wp-content\themes\zakra\functions.php on line 326
+
+2022-05-09T13:55:10+00:00 CRITICAL Uncaught Error: Call to undefined function the_post_thumbnails() in C:\xampp\htdocs\filter\wp-content\themes\zakra\functions.php:323
+Stack trace:
+#0 C:\xampp\htdocs\filter\wp-includes\shortcodes.php(356): filter_shortcode('', '', 'filter_shortcod...')
+#1 [internal function]: do_shortcode_tag(Array)
+#2 C:\xampp\htdocs\filter\wp-includes\shortcodes.php(228): preg_replace_callback('/\\[(\\[?)(filter...', 'do_shortcode_ta...', '[filter_shortco...')
+#3 C:\xampp\htdocs\filter\wp-includes\class-wp-hook.php(307): do_shortcode('[filter_shortco...')
+#4 C:\xampp\htdocs\filter\wp-includes\plugin.php(189): WP_Hook->apply_filters('[filter_shortco...', Array)
+#5 C:\xampp\htdocs\filter\wp-includes\post-template.php(253): apply_filters('the_content', '[filter_shortco...')
+#6 C:\xampp\htdocs\filter\wp-content\themes\zakra\template-parts\content-page.php(37): the_content()
+#7 C:\xampp\htdocs\filter\wp-includes\template.php(772): require('C:\\xampp\\htdocs...')
+#8 C:\xampp\htdocs\filter\wp-includes\template.php(716): load_template('C:\\xampp\\htdocs...', false, Array)
+#9 C:\xampp\htdocs\filter\wp-includes\general-template.php(204): locate_template(Array, true, false, Array)
+#10 C:\xampp\htdocs\filter\wp-content\themes\zakra\page.php(25): get_template_part('template-parts/...', 'page')
+#11 C:\xampp\htdocs\filter\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#12 C:\xampp\htdocs\filter\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#13 C:\xampp\htdocs\filter\index.php(17): require('C:\\xampp\\htdocs...')
+#14 {main}
+  thrown in C:\xampp\htdocs\filter\wp-content\themes\zakra\functions.php on line 323
+

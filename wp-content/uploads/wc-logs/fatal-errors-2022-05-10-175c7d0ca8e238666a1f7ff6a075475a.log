@@ -1,0 +1,156 @@
+2022-05-10T05:57:17+00:00 CRITICAL Uncaught TypeError: Cannot access offset of type string on string in C:\xampp\htdocs\filter\wp-content\themes\zakra\functions.php:365
+Stack trace:
+#0 C:\xampp\htdocs\filter\wp-includes\class-wp-hook.php(307): form_filter_submit('')
+#1 C:\xampp\htdocs\filter\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#2 C:\xampp\htdocs\filter\wp-includes\plugin.php(474): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\filter\wp-admin\admin-ajax.php(187): do_action('wp_ajax_form_fi...')
+#4 {main}
+  thrown in C:\xampp\htdocs\filter\wp-content\themes\zakra\functions.php on line 365
+
+2022-05-10T05:57:19+00:00 CRITICAL Uncaught TypeError: Cannot access offset of type string on string in C:\xampp\htdocs\filter\wp-content\themes\zakra\functions.php:365
+Stack trace:
+#0 C:\xampp\htdocs\filter\wp-includes\class-wp-hook.php(307): form_filter_submit('')
+#1 C:\xampp\htdocs\filter\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#2 C:\xampp\htdocs\filter\wp-includes\plugin.php(474): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\filter\wp-admin\admin-ajax.php(187): do_action('wp_ajax_form_fi...')
+#4 {main}
+  thrown in C:\xampp\htdocs\filter\wp-content\themes\zakra\functions.php on line 365
+
+2022-05-10T06:13:56+00:00 CRITICAL Uncaught Error: Call to undefined function typeof() in C:\xampp\htdocs\filter\wp-content\themes\zakra\functions.php:366
+Stack trace:
+#0 C:\xampp\htdocs\filter\wp-includes\class-wp-hook.php(307): form_filter_submit('')
+#1 C:\xampp\htdocs\filter\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#2 C:\xampp\htdocs\filter\wp-includes\plugin.php(474): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\filter\wp-admin\admin-ajax.php(187): do_action('wp_ajax_form_fi...')
+#4 {main}
+  thrown in C:\xampp\htdocs\filter\wp-content\themes\zakra\functions.php on line 366
+
+2022-05-10T06:13:59+00:00 CRITICAL Uncaught Error: Call to undefined function typeof() in C:\xampp\htdocs\filter\wp-content\themes\zakra\functions.php:366
+Stack trace:
+#0 C:\xampp\htdocs\filter\wp-includes\class-wp-hook.php(307): form_filter_submit('')
+#1 C:\xampp\htdocs\filter\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#2 C:\xampp\htdocs\filter\wp-includes\plugin.php(474): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\filter\wp-admin\admin-ajax.php(187): do_action('wp_ajax_form_fi...')
+#4 {main}
+  thrown in C:\xampp\htdocs\filter\wp-content\themes\zakra\functions.php on line 366
+
+2022-05-10T06:48:05+00:00 CRITICAL Uncaught TypeError: array_column(): Argument #1 ($array) must be of type array, string given in C:\xampp\htdocs\filter\wp-content\themes\zakra\functions.php:368
+Stack trace:
+#0 C:\xampp\htdocs\filter\wp-content\themes\zakra\functions.php(368): array_column('tag_name', 'tag-2')
+#1 C:\xampp\htdocs\filter\wp-includes\class-wp-hook.php(307): form_filter_submit('')
+#2 C:\xampp\htdocs\filter\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#3 C:\xampp\htdocs\filter\wp-includes\plugin.php(474): WP_Hook->do_action(Array)
+#4 C:\xampp\htdocs\filter\wp-admin\admin-ajax.php(187): do_action('wp_ajax_form_fi...')
+#5 {main}
+  thrown in C:\xampp\htdocs\filter\wp-content\themes\zakra\functions.php on line 368
+
+2022-05-10T06:48:40+00:00 CRITICAL Uncaught TypeError: array_column(): Argument #1 ($array) must be of type array, string given in C:\xampp\htdocs\filter\wp-content\themes\zakra\functions.php:368
+Stack trace:
+#0 C:\xampp\htdocs\filter\wp-content\themes\zakra\functions.php(368): array_column('tag_name', 'tag-2')
+#1 C:\xampp\htdocs\filter\wp-includes\class-wp-hook.php(307): form_filter_submit('')
+#2 C:\xampp\htdocs\filter\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#3 C:\xampp\htdocs\filter\wp-includes\plugin.php(474): WP_Hook->do_action(Array)
+#4 C:\xampp\htdocs\filter\wp-admin\admin-ajax.php(187): do_action('wp_ajax_form_fi...')
+#5 {main}
+  thrown in C:\xampp\htdocs\filter\wp-content\themes\zakra\functions.php on line 368
+
+2022-05-10T06:56:29+00:00 CRITICAL Uncaught TypeError: array_column(): Argument #1 ($array) must be of type array, string given in C:\xampp\htdocs\filter\wp-content\themes\zakra\functions.php:369
+Stack trace:
+#0 C:\xampp\htdocs\filter\wp-content\themes\zakra\functions.php(369): array_column('tag_name', 'tag_name', Array)
+#1 C:\xampp\htdocs\filter\wp-includes\class-wp-hook.php(307): form_filter_submit('')
+#2 C:\xampp\htdocs\filter\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#3 C:\xampp\htdocs\filter\wp-includes\plugin.php(474): WP_Hook->do_action(Array)
+#4 C:\xampp\htdocs\filter\wp-admin\admin-ajax.php(187): do_action('wp_ajax_form_fi...')
+#5 {main}
+  thrown in C:\xampp\htdocs\filter\wp-content\themes\zakra\functions.php on line 369
+
+2022-05-10T06:56:41+00:00 CRITICAL Uncaught TypeError: array_column(): Argument #1 ($array) must be of type array, string given in C:\xampp\htdocs\filter\wp-content\themes\zakra\functions.php:369
+Stack trace:
+#0 C:\xampp\htdocs\filter\wp-content\themes\zakra\functions.php(369): array_column('tag_name', 'tag-1', Array)
+#1 C:\xampp\htdocs\filter\wp-includes\class-wp-hook.php(307): form_filter_submit('')
+#2 C:\xampp\htdocs\filter\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#3 C:\xampp\htdocs\filter\wp-includes\plugin.php(474): WP_Hook->do_action(Array)
+#4 C:\xampp\htdocs\filter\wp-admin\admin-ajax.php(187): do_action('wp_ajax_form_fi...')
+#5 {main}
+  thrown in C:\xampp\htdocs\filter\wp-content\themes\zakra\functions.php on line 369
+
+2022-05-10T06:56:58+00:00 CRITICAL Uncaught TypeError: array_column(): Argument #1 ($array) must be of type array, string given in C:\xampp\htdocs\filter\wp-content\themes\zakra\functions.php:369
+Stack trace:
+#0 C:\xampp\htdocs\filter\wp-content\themes\zakra\functions.php(369): array_column('tag_name', 'tag-1', Array)
+#1 C:\xampp\htdocs\filter\wp-includes\class-wp-hook.php(307): form_filter_submit('')
+#2 C:\xampp\htdocs\filter\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#3 C:\xampp\htdocs\filter\wp-includes\plugin.php(474): WP_Hook->do_action(Array)
+#4 C:\xampp\htdocs\filter\wp-admin\admin-ajax.php(187): do_action('wp_ajax_form_fi...')
+#5 {main}
+  thrown in C:\xampp\htdocs\filter\wp-content\themes\zakra\functions.php on line 369
+
+2022-05-10T06:58:23+00:00 CRITICAL Uncaught TypeError: array_column(): Argument #1 ($array) must be of type array, null given in C:\xampp\htdocs\filter\wp-content\themes\zakra\functions.php:369
+Stack trace:
+#0 C:\xampp\htdocs\filter\wp-content\themes\zakra\functions.php(369): array_column(NULL, NULL, NULL)
+#1 C:\xampp\htdocs\filter\wp-includes\class-wp-hook.php(307): form_filter_submit('')
+#2 C:\xampp\htdocs\filter\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#3 C:\xampp\htdocs\filter\wp-includes\plugin.php(474): WP_Hook->do_action(Array)
+#4 C:\xampp\htdocs\filter\wp-admin\admin-ajax.php(187): do_action('wp_ajax_form_fi...')
+#5 {main}
+  thrown in C:\xampp\htdocs\filter\wp-content\themes\zakra\functions.php on line 369
+
+2022-05-10T09:34:52+00:00 CRITICAL syntax error, unexpected single-quoted string "tax_query", expecting ")" in C:\xampp\htdocs\filter\wp-content\themes\zakra\functions.php on line 377
+
+2022-05-10T09:37:17+00:00 CRITICAL syntax error, unexpected token "if", expecting ")" in C:\xampp\htdocs\filter\wp-content\themes\zakra\functions.php on line 377
+
+2022-05-10T09:37:24+00:00 CRITICAL syntax error, unexpected token "if", expecting ")" in C:\xampp\htdocs\filter\wp-content\themes\zakra\functions.php on line 377
+
+2022-05-10T09:37:47+00:00 CRITICAL Unclosed '(' on line 373 does not match '}' in C:\xampp\htdocs\filter\wp-content\themes\zakra\functions.php on line 384
+
+2022-05-10T09:37:49+00:00 CRITICAL Unclosed '(' on line 373 does not match '}' in C:\xampp\htdocs\filter\wp-content\themes\zakra\functions.php on line 384
+
+2022-05-10T09:38:23+00:00 CRITICAL syntax error, unexpected token "if", expecting ")" in C:\xampp\htdocs\filter\wp-content\themes\zakra\functions.php on line 377
+
+2022-05-10T09:38:28+00:00 CRITICAL syntax error, unexpected token "if", expecting ")" in C:\xampp\htdocs\filter\wp-content\themes\zakra\functions.php on line 377
+
+2022-05-10T09:39:34+00:00 CRITICAL syntax error, unexpected token "if", expecting ")" in C:\xampp\htdocs\filter\wp-content\themes\zakra\functions.php on line 377
+
+2022-05-10T09:40:04+00:00 CRITICAL syntax error, unexpected token "=>" in C:\xampp\htdocs\filter\wp-content\themes\zakra\functions.php on line 373
+
+2022-05-10T09:40:27+00:00 CRITICAL syntax error, unexpected token "=>" in C:\xampp\htdocs\filter\wp-content\themes\zakra\functions.php on line 373
+
+2022-05-10T09:40:33+00:00 CRITICAL syntax error, unexpected token "=>" in C:\xampp\htdocs\filter\wp-content\themes\zakra\functions.php on line 373
+
+2022-05-10T09:40:46+00:00 CRITICAL syntax error, unexpected token "=>" in C:\xampp\htdocs\filter\wp-content\themes\zakra\functions.php on line 373
+
+2022-05-10T09:41:37+00:00 CRITICAL syntax error, unexpected token "=>" in C:\xampp\htdocs\filter\wp-content\themes\zakra\functions.php on line 373
+
+2022-05-10T09:42:11+00:00 CRITICAL syntax error, unexpected token "}" in C:\xampp\htdocs\filter\wp-content\themes\zakra\functions.php on line 381
+
+2022-05-10T09:42:13+00:00 CRITICAL syntax error, unexpected token "}" in C:\xampp\htdocs\filter\wp-content\themes\zakra\functions.php on line 381
+
+2022-05-10T09:42:45+00:00 CRITICAL syntax error, unexpected token "}" in C:\xampp\htdocs\filter\wp-content\themes\zakra\functions.php on line 381
+
+2022-05-10T09:42:54+00:00 CRITICAL syntax error, unexpected token "}" in C:\xampp\htdocs\filter\wp-content\themes\zakra\functions.php on line 382
+
+2022-05-10T09:43:06+00:00 CRITICAL syntax error, unexpected token "}" in C:\xampp\htdocs\filter\wp-content\themes\zakra\functions.php on line 382
+
+2022-05-10T09:43:52+00:00 CRITICAL syntax error, unexpected token "}" in C:\xampp\htdocs\filter\wp-content\themes\zakra\functions.php on line 382
+
+2022-05-10T09:44:33+00:00 CRITICAL syntax error, unexpected token "}" in C:\xampp\htdocs\filter\wp-content\themes\zakra\functions.php on line 382
+
+2022-05-10T11:54:26+00:00 CRITICAL syntax error, unexpected end of file, expecting "(" in C:\xampp\htdocs\filter\wp-content\themes\zakra\functions.php on line 430
+
+2022-05-10T11:55:14+00:00 CRITICAL syntax error, unexpected end of file, expecting "(" in C:\xampp\htdocs\filter\wp-content\themes\zakra\functions.php on line 428
+
+2022-05-10T11:55:32+00:00 CRITICAL syntax error, unexpected end of file, expecting "(" in C:\xampp\htdocs\filter\wp-content\themes\zakra\functions.php on line 428
+
+2022-05-10T11:55:45+00:00 CRITICAL syntax error, unexpected end of file, expecting "(" in C:\xampp\htdocs\filter\wp-content\themes\zakra\functions.php on line 428
+
+2022-05-10T11:55:47+00:00 CRITICAL syntax error, unexpected end of file, expecting "(" in C:\xampp\htdocs\filter\wp-content\themes\zakra\functions.php on line 428
+
+2022-05-10T12:04:23+00:00 CRITICAL syntax error, unexpected token "else" in C:\xampp\htdocs\filter\wp-content\themes\zakra\functions.php on line 426
+
+2022-05-10T12:05:29+00:00 CRITICAL syntax error, unexpected token "else" in C:\xampp\htdocs\filter\wp-content\themes\zakra\functions.php on line 426
+
+2022-05-10T12:05:55+00:00 CRITICAL syntax error, unexpected token "else" in C:\xampp\htdocs\filter\wp-content\themes\zakra\functions.php on line 426
+
+2022-05-10T12:06:07+00:00 CRITICAL syntax error, unexpected token "else" in C:\xampp\htdocs\filter\wp-content\themes\zakra\functions.php on line 428
+
+2022-05-10T13:28:07+00:00 CRITICAL Unclosed '(' on line 443 does not match '}' in C:\xampp\htdocs\filter\wp-content\themes\zakra\functions.php on line 445
+

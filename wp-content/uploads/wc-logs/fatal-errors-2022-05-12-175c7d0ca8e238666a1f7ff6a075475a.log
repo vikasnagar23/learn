@@ -1,0 +1,76 @@
+2022-05-12T05:54:21+00:00 CRITICAL syntax error, unexpected token "foreach", expecting ")" in C:\xampp\htdocs\filter\wp-content\plugins\wp_filter\wp_filter.php on line 107
+
+2022-05-12T05:54:34+00:00 CRITICAL syntax error, unexpected token "foreach", expecting ")" in C:\xampp\htdocs\filter\wp-content\plugins\wp_filter\wp_filter.php on line 107
+
+2022-05-12T05:57:07+00:00 CRITICAL syntax error, unexpected token "=>" in C:\xampp\htdocs\filter\wp-content\plugins\wp_filter\wp_filter.php on line 89
+
+2022-05-12T05:57:07+00:00 CRITICAL syntax error, unexpected token "=>" in C:\xampp\htdocs\filter\wp-content\plugins\wp_filter\wp_filter.php on line 89
+
+2022-05-12T05:57:16+00:00 CRITICAL syntax error, unexpected token "foreach", expecting ")" in C:\xampp\htdocs\filter\wp-content\plugins\wp_filter\wp_filter.php on line 107
+
+2022-05-12T05:57:22+00:00 CRITICAL syntax error, unexpected token "foreach", expecting ")" in C:\xampp\htdocs\filter\wp-content\plugins\wp_filter\wp_filter.php on line 107
+
+2022-05-12T05:57:28+00:00 CRITICAL syntax error, unexpected token "=>" in C:\xampp\htdocs\filter\wp-content\plugins\wp_filter\wp_filter.php on line 89
+
+2022-05-12T06:11:31+00:00 CRITICAL Unclosed '{' on line 77 in C:\xampp\htdocs\filter\wp-content\plugins\wp_filter\wp_filter.php on line 198
+
+2022-05-12T06:11:51+00:00 CRITICAL Unclosed '{' on line 77 in C:\xampp\htdocs\filter\wp-content\plugins\wp_filter\wp_filter.php on line 198
+
+2022-05-12T06:11:52+00:00 CRITICAL Unclosed '{' on line 77 in C:\xampp\htdocs\filter\wp-content\plugins\wp_filter\wp_filter.php on line 198
+
+2022-05-12T06:13:43+00:00 CRITICAL Uncaught TypeError: unserialize(): Argument #1 ($data) must be of type string, array given in C:\xampp\htdocs\filter\wp-content\plugins\wp_filter\wp_filter.php:88
+Stack trace:
+#0 C:\xampp\htdocs\filter\wp-content\plugins\wp_filter\wp_filter.php(88): unserialize(Array)
+#1 C:\xampp\htdocs\filter\wp-includes\class-wp-hook.php(307): form_data_function('')
+#2 C:\xampp\htdocs\filter\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#3 C:\xampp\htdocs\filter\wp-includes\plugin.php(474): WP_Hook->do_action(Array)
+#4 C:\xampp\htdocs\filter\wp-admin\admin-ajax.php(187): do_action('wp_ajax_form_da...')
+#5 {main}
+  thrown in C:\xampp\htdocs\filter\wp-content\plugins\wp_filter\wp_filter.php on line 88
+
+2022-05-12T06:18:13+00:00 CRITICAL Uncaught TypeError: unserialize(): Argument #1 ($data) must be of type string, array given in C:\xampp\htdocs\filter\wp-content\plugins\wp_filter\wp_filter.php:82
+Stack trace:
+#0 C:\xampp\htdocs\filter\wp-content\plugins\wp_filter\wp_filter.php(82): unserialize(Array)
+#1 C:\xampp\htdocs\filter\wp-includes\class-wp-hook.php(307): form_data_function('')
+#2 C:\xampp\htdocs\filter\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#3 C:\xampp\htdocs\filter\wp-includes\plugin.php(474): WP_Hook->do_action(Array)
+#4 C:\xampp\htdocs\filter\wp-admin\admin-ajax.php(187): do_action('wp_ajax_form_da...')
+#5 {main}
+  thrown in C:\xampp\htdocs\filter\wp-content\plugins\wp_filter\wp_filter.php on line 82
+
+2022-05-12T06:55:29+00:00 CRITICAL syntax error, unexpected token ";", expecting ")" in C:\xampp\htdocs\filter\wp-content\plugins\wp_filter\wp_filter.php on line 172
+
+2022-05-12T06:55:31+00:00 CRITICAL syntax error, unexpected token ";", expecting ")" in C:\xampp\htdocs\filter\wp-content\plugins\wp_filter\wp_filter.php on line 172
+
+2022-05-12T07:01:15+00:00 CRITICAL syntax error, unexpected string content "", expecting "-" or identifier or variable or number in C:\xampp\htdocs\filter\wp-content\plugins\wp_filter\wp_filter.php on line 177
+
+2022-05-12T07:01:15+00:00 CRITICAL syntax error, unexpected string content "", expecting "-" or identifier or variable or number in C:\xampp\htdocs\filter\wp-content\plugins\wp_filter\wp_filter.php on line 177
+
+2022-05-12T07:01:33+00:00 CRITICAL syntax error, unexpected string content "", expecting "-" or identifier or variable or number in C:\xampp\htdocs\filter\wp-content\plugins\wp_filter\wp_filter.php on line 177
+
+2022-05-12T07:01:34+00:00 CRITICAL syntax error, unexpected string content "", expecting "-" or identifier or variable or number in C:\xampp\htdocs\filter\wp-content\plugins\wp_filter\wp_filter.php on line 177
+
+2022-05-12T07:01:54+00:00 CRITICAL Unclosed '{' on line 167 in C:\xampp\htdocs\filter\wp-content\plugins\wp_filter\wp_filter.php on line 209
+
+2022-05-12T07:01:55+00:00 CRITICAL Unclosed '{' on line 167 in C:\xampp\htdocs\filter\wp-content\plugins\wp_filter\wp_filter.php on line 209
+
+2022-05-12T07:02:11+00:00 CRITICAL syntax error, unexpected string content "", expecting "-" or identifier or variable or number in C:\xampp\htdocs\filter\wp-content\plugins\wp_filter\wp_filter.php on line 177
+
+2022-05-12T07:03:18+00:00 CRITICAL syntax error, unexpected string content "", expecting "-" or identifier or variable or number in C:\xampp\htdocs\filter\wp-content\plugins\wp_filter\wp_filter.php on line 176
+
+2022-05-12T07:03:34+00:00 CRITICAL syntax error, unexpected string content "", expecting "-" or identifier or variable or number in C:\xampp\htdocs\filter\wp-content\plugins\wp_filter\wp_filter.php on line 176
+
+2022-05-12T07:03:38+00:00 CRITICAL syntax error, unexpected string content "", expecting "-" or identifier or variable or number in C:\xampp\htdocs\filter\wp-content\plugins\wp_filter\wp_filter.php on line 176
+
+2022-05-12T07:03:46+00:00 CRITICAL syntax error, unexpected string content "", expecting "-" or identifier or variable or number in C:\xampp\htdocs\filter\wp-content\plugins\wp_filter\wp_filter.php on line 176
+
+2022-05-12T07:04:09+00:00 CRITICAL syntax error, unexpected string content "", expecting "-" or identifier or variable or number in C:\xampp\htdocs\filter\wp-content\plugins\wp_filter\wp_filter.php on line 176
+
+2022-05-12T07:05:34+00:00 CRITICAL syntax error, unexpected string content "", expecting "-" or identifier or variable or number in C:\xampp\htdocs\filter\wp-content\plugins\wp_filter\wp_filter.php on line 178
+
+2022-05-12T07:05:35+00:00 CRITICAL syntax error, unexpected string content "", expecting "-" or identifier or variable or number in C:\xampp\htdocs\filter\wp-content\plugins\wp_filter\wp_filter.php on line 178
+
+2022-05-12T07:05:50+00:00 CRITICAL syntax error, unexpected string content "", expecting "-" or identifier or variable or number in C:\xampp\htdocs\filter\wp-content\plugins\wp_filter\wp_filter.php on line 178
+
+2022-05-12T07:28:12+00:00 CRITICAL syntax error, unexpected token ";" in C:\xampp\htdocs\filter\wp-content\plugins\wp_filter\wp_filter.php on line 98
+

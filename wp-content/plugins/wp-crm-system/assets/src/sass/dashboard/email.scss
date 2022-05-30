@@ -1,0 +1,72 @@
+.wp-crm-email-form {
+    max-width: 50em;
+
+    &-filter {
+        max-width: 32em;
+
+        p.submit {
+            margin-top: 0;
+        }
+
+        .wp-crm-email {
+            &-organization {
+                width: 100%;
+            }
+
+            &-categories {
+                background: #fff;
+                margin-right: 1em;
+
+                h3.ui-state-default {
+                    background: #fff;
+                    background-image: none;
+                    border: 1px solid;
+                    outline-color: #2271b1;
+                }
+            }
+        }
+    }
+
+    .wp-crm-email {
+        width: 100%;
+
+        &-group {
+            margin: 1em 0;
+        }
+
+        &-label {
+            font-size:  1em;
+            display: block;
+            width: 100%;
+            margin-bottom: 0.5em;
+        }
+
+        &-input {
+            display: block;
+            background: #F9F9F9;
+            border: 1px solid #ccc;
+            padding: 0.5em 1em;
+            font-size: 1.25em;
+        }
+
+        &-submit-btn {
+            background: #101010;
+            color: #fff;
+            border: none;
+            margin-top: 0;
+        }
+
+        &-notice {
+            background: #fff;
+            border: 0.0625em solid #c3c4c7;
+            border-left-width: 0.25em;
+            box-shadow: 0 0.0625em 0.0625em rgba(0, 0, 0, 0.4);
+            padding: 0.75em;
+            margin: 0.375em 0 1em;
+
+            &-warning {
+                border-left-color: #dba617;
+            }
+        }
+    }
+}
